@@ -1,5 +1,5 @@
 Summary:	X.org video driver for TGA (DEC 21030) video chips
-Summary(pl):	Sterownik obrazu X.org dla uk³adów graficznych TGA (DEC 21030)
+Summary(pl.UTF-8):   Sterownik obrazu X.org dla ukÅ‚adÃ³w graficznych TGA (DEC 21030)
 Name:		xorg-driver-video-tga
 Version:	1.1.0
 Release:	0.1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 X.org video driver for TGA (DEC 21030) video chips.
 
-%description -l pl
-Sterownik obrazu X.org dla uk³adów graficznych TGA (DEC 21030).
+%description -l pl.UTF-8
+Sterownik obrazu X.org dla ukÅ‚adÃ³w graficznych TGA (DEC 21030).
 
 %prep
 %setup -q -n xf86-video-tga-%{version}
