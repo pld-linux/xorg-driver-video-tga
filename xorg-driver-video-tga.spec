@@ -2,11 +2,12 @@ Summary:	X.org video driver for TGA (DEC 21030) video chips
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla układów graficznych TGA (DEC 21030)
 Name:		xorg-driver-video-tga
 Version:	1.2.2
-Release:	3
+Release:	4
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-tga-%{version}.tar.bz2
 # Source0-md5:	f77d66e86ed0485b204b17e734aa47df
+Patch0:		build.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -38,6 +39,7 @@ Sterownik obrazu X.org dla układów graficznych TGA (DEC 21030).
 
 %prep
 %setup -q -n xf86-video-tga-%{version}
+%patch0 -p1
 
 %build
 %{__libtoolize}
