@@ -2,7 +2,7 @@ Summary:	X.org video driver for TGA (DEC 21030) video chips
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla układów graficznych TGA (DEC 21030)
 Name:		xorg-driver-video-tga
 Version:	1.2.2
-Release:	11
+Release:	12
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-tga-%{version}.tar.bz2
