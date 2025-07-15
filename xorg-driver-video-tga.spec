@@ -39,7 +39,7 @@ Sterownik obrazu X.org dla układów graficznych TGA (DEC 21030).
 
 %prep
 %setup -q -n xf86-video-tga-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
